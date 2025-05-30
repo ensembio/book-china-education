@@ -1,34 +1,29 @@
-  type: book
-
-book:
-  title: "China Education Book"
-  author: "Richard Sprague"
-  date: "5/28/2025"
-  chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
-
-bibliography: references.bib
-
-format:
-  html:
-    theme: cosmo
-  pdf:
-    documentclass: scrreprt
-
 project:
   type: book
-  output-dir: docs  # Using docs for GitHub Pages compatibility
+  output-dir: docs
 
 book:
   title: "China Education Book"
-  author: "Ensembio"
-  date: "2024"
+  subtitle: "Transforming Education Through Inquiry-Based Learning"
+  author: "Richard Sprague"
+  search: true
+  page-footer: "Copyright 2025 Proofbound, Inc"
+  site-url: https://ensembio.github.io/book-china-education/
+  downloads: [pdf, epub]
+  date: "5/29/2025"
   chapters:
     - index.qmd
     - intro.qmd
+    - ch1-foundations.qmd
+    - ch2-consensus.qmd
+    - ch3-top-level-design.qmd
+    - ch4-three-questions.qmd
+    - ch5-leadership.qmd
+    - ch6-scaling.qmd
+    - ch7-teacher-development.qmd
+    - ch8-pitfalls.qmd
+    - ch9-assessment.qmd
+    - ch10-sustainability.qmd
     - summary.qmd
     - references.qmd
 
@@ -36,10 +31,19 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: minty
+    css: _resources/book/css/normalize.css
+    standalone: true
+    toc: true
+    link-external-newwindow: true
   pdf:
-    documentclass: scrreprt
-
-# Enable GitHub Pages publishing
-publish:
-  site: github-pages
+    papersize: "Letter"
+    mainfont: "Georgia"
+    toc: true
+    documentclass: scrbook
+    geometry: paperwidth=6in,paperheight=9in
+    standalone: true
+    toc-depth: 2  
+    keep-tex: true
+    header-includes:
+      - \raggedbottom

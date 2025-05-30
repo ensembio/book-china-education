@@ -1,5 +1,5 @@
-# Preface {.unnumbered}
+# China Education Book {.unnumbered}
 
-This is a Quarto book.
+This book explores aspects of the education system in China.
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+To learn more about this project, visit the subsequent chapters.

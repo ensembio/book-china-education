@@ -1,0 +1,19 @@
+# Avoiding Common Pitfalls in Reform
+
+This chapter identifies and addresses the dangers of formalism, blind adoption of external models, and rushed implementation. It provides frameworks for authentic, contextually appropriate educational transformation.
+
+## The Danger of Formalism
+
+[Content to be added]
+
+## Blind Adoption of External Models
+
+[Content to be added]
+
+## Rushed Implementation
+
+[Content to be added]
+
+## Frameworks for Authentic Transformation
+
+[Content to be added]
