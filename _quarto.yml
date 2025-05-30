@@ -1,0 +1,45 @@
+  type: book
+
+book:
+  title: "China Education Book"
+  author: "Richard Sprague"
+  date: "5/28/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+project:
+  type: book
+  output-dir: docs  # Using docs for GitHub Pages compatibility
+
+book:
+  title: "China Education Book"
+  author: "Ensembio"
+  date: "2024"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+# Enable GitHub Pages publishing
+publish:
+  site: github-pages
