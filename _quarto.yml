@@ -5,7 +5,7 @@ project:
 book:
   title: "China Education Book"
   subtitle: "Transforming Education Through Inquiry-Based Learning"
-  author: "Richard Sprague"
+  author: "Jian Huang"
   search: true
   page-footer: "Copyright 2025 Proofbound, Inc"
   site-url: https://ensembio.github.io/book-china-education/
