@@ -3,14 +3,14 @@ project:
   output-dir: docs
 
 book:
-  title: "China Education Book"
-  subtitle: "Transforming Education Through Inquiry-Based Learning"
+  title: "From Questions to Transformation"
+  subtitle: "A Practitioner's Guide to Inquiry-Based Educational Reform"
   author: "Jian Huang"
   search: true
   page-footer: "Copyright 2025 Proofbound, Inc"
   site-url: https://ensembio.github.io/book-china-education/
   downloads: [pdf, epub]
-  date: "5/29/2025"
+  date: "6/10/2025"
   chapters:
     - index.qmd
     - intro.qmd
@@ -25,7 +25,7 @@ book:
     - ch9-assessment.qmd
     - ch10-sustainability.qmd
     - summary.qmd
-    - references.qmd
+    # - references.qmd
 
 bibliography: references.bib
 
@@ -39,11 +39,16 @@ format:
   pdf:
     papersize: "Letter"
     mainfont: "Georgia"
+    CJKmainfont: "STSong"  # or another CJK font you have installed
     toc: true
     documentclass: scrbook
     geometry: paperwidth=6in,paperheight=9in
     standalone: true
     toc-depth: 2  
     keep-tex: true
+    include-in-header:
+      - text: |
+          \usepackage{xeCJK}
+          \setCJKmainfont{STSong}
     header-includes:
       - \raggedbottom

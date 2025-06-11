@@ -1,0 +1,154 @@
+<svg viewBox="0 0 1000 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="traditionalGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d1e7dd;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="inquiryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fff3cd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8d7da;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="arrowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d6efd;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6f42c1;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Title -->
+  <text x="500" y="30" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:20px;font-weight:bold;fill:#2c3e50">Teacher Development and Professional Growth Framework</text>
+  
+  <!-- Traditional Role Box -->
+  <rect x="50" y="70" width="200" height="250" rx="10" fill="url(#traditionalGrad)" stroke="#6c757d" stroke-width="2"/>
+  <text x="150" y="95" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:16px;font-weight:bold;fill:#2c3e50">Traditional Educator</text>
+  <text x="150" y="115" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:12px;fill:#495057">Information Deliverer</text>
+  
+  <!-- Traditional characteristics -->
+  <text x="60" y="140" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Lecture-centered</text>
+  <text x="60" y="160" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Content transmission</text>
+  <text x="60" y="180" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• One-way communication</text>
+  <text x="60" y="200" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Assessment as judgment</text>
+  <text x="60" y="220" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Fixed curriculum</text>
+  <text x="60" y="240" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Teacher as authority</text>
+  <text x="60" y="260" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Passive learning</text>
+  <text x="60" y="280" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Individual practice</text>
+  <text x="60" y="300" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Resistance to change</text>
+  
+  <!-- Transformation Arrow -->
+  <path d="M 270 195 L 380 195" stroke="url(#arrowGrad)" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" 
+     refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="url(#arrowGrad)" />
+    </marker>
+  </defs>
+  
+  <!-- Transformation Process -->
+  <rect x="280" y="160" width="120" height="70" rx="8" fill="#fff" stroke="#6f42c1" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="340" y="180" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:12px;font-weight:bold;fill:#6f42c1">Transformation</text>
+  <text x="340" y="195" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:12px;font-weight:bold;fill:#6f42c1">Process</text>
+  <text x="340" y="215" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:10px;fill:#6f42c1">Three Questions</text>
+  <text x="340" y="225" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:10px;fill:#6f42c1">Three Explorations</text>
+  
+  <!-- Inquiry-Based Role Box -->
+  <rect x="420" y="70" width="200" height="250" rx="10" fill="url(#inquiryGrad)" stroke="#dc3545" stroke-width="2"/>
+  <text x="520" y="95" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:16px;font-weight:bold;fill:#2c3e50">Inquiry-Based Educator</text>
+  <text x="520" y="115" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:12px;fill:#495057">Learning Facilitator</text>
+  
+  <!-- Inquiry characteristics -->
+  <text x="430" y="140" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Question-centered</text>
+  <text x="430" y="160" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Knowledge construction</text>
+  <text x="430" y="180" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Interactive dialogue</text>
+  <text x="430" y="200" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Assessment as feedback</text>
+  <text x="430" y="220" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Adaptive curriculum</text>
+  <text x="430" y="240" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Student as co-explorer</text>
+  <text x="430" y="260" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Active discovery</text>
+  <text x="430" y="280" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Collaborative inquiry</text>
+  <text x="430" y="300" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Continuous innovation</text>
+  
+  <!-- Professional Development Ecosystem -->
+  <rect x="650" y="70" width="320" height="580" rx="10" fill="#f8f9fa" stroke="#495057" stroke-width="2"/>
+  <text x="810" y="95" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:16px;font-weight:bold;fill:#2c3e50">Professional Development Ecosystem</text>
+  
+  <!-- External Learning -->
+  <rect x="670" y="110" width="280" height="90" rx="5" fill="#e3f2fd" stroke="#1976d2" stroke-width="1"/>
+  <text x="810" y="130" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:14px;font-weight:bold;fill:#1976d2">External Learning</text>
+  <text x="680" y="150" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Cross-regional school visits</text>
+  <text x="680" y="165" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• National education conferences</text>
+  <text x="680" y="180" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Best practice observation</text>
+  <text x="680" y="195" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Expert mentorship programs</text>
+  
+  <!-- Internal Training -->
+  <rect x="670" y="220" width="280" height="90" rx="5" fill="#f3e5f5" stroke="#7b1fa2" stroke-width="1"/>
+  <text x="810" y="240" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:14px;font-weight:bold;fill:#7b1fa2">Internal Training</text>
+  <text x="680" y="260" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Collaborative lesson planning</text>
+  <text x="680" y="275" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Peer observation cycles</text>
+  <text x="680" y="290" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Action research projects</text>
+  <text x="680" y="305" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Reflective practice groups</text>
+  
+  <!-- Research and Development -->
+  <rect x="670" y="330" width="280" height="90" rx="5" fill="#e8f5e8" stroke="#388e3c" stroke-width="1"/>
+  <text x="810" y="350" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:14px;font-weight:bold;fill:#388e3c">Research and Development</text>
+  <text x="680" y="370" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Classroom experimentation</text>
+  <text x="680" y="385" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Student feedback analysis</text>
+  <text x="680" y="400" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Curriculum adaptation studies</text>
+  <text x="680" y="415" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Innovation documentation</text>
+  
+  <!-- Community of Practice -->
+  <rect x="670" y="440" width="280" height="90" rx="5" fill="#fff3e0" stroke="#f57c00" stroke-width="1"/>
+  <text x="810" y="460" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:14px;font-weight:bold;fill:#f57c00">Community of Practice</text>
+  <text x="680" y="480" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Professional learning networks</text>
+  <text x="680" y="495" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Cross-school collaboration</text>
+  <text x="680" y="510" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Knowledge sharing platforms</text>
+  <text x="680" y="525" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Mentoring relationships</text>
+  
+  <!-- Support Systems -->
+  <rect x="670" y="550" width="280" height="90" rx="5" fill="#fce4ec" stroke="#c2185b" stroke-width="1"/>
+  <text x="810" y="570" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:14px;font-weight:bold;fill:#c2185b">Support Systems</text>
+  <text x="680" y="590" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Administrative backing</text>
+  <text x="680" y="605" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Resource allocation</text>
+  <text x="680" y="620" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Recognition programs</text>
+  <text x="680" y="635" style="font-family:Arial,sans-serif;font-size:10px;fill:#495057">• Protected experimentation time</text>
+  
+  <!-- Connection arrows from inquiry role to development -->
+  <path d="M 620 150 L 650 150" stroke="#6c757d" stroke-width="2" fill="none" marker-end="url(#smallArrow)"/>
+  <path d="M 620 200 L 650 265" stroke="#6c757d" stroke-width="2" fill="none" marker-end="url(#smallArrow)"/>
+  <path d="M 620 250 L 650 375" stroke="#6c757d" stroke-width="2" fill="none" marker-end="url(#smallArrow)"/>
+  <path d="M 620 300 L 650 485" stroke="#6c757d" stroke-width="2" fill="none" marker-end="url(#smallArrow)"/>
+  
+  <defs>
+    <marker id="smallArrow" markerWidth="8" markerHeight="6" 
+     refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#6c757d" />
+    </marker>
+  </defs>
+  
+  <!-- Growth Cycle -->
+  <ellipse cx="150" cy="400" rx="80" ry="40" fill="none" stroke="#28a745" stroke-width="2" stroke-dasharray="3,3"/>
+  <text x="150" y="380" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:12px;font-weight:bold;fill:#28a745">Continuous</text>
+  <text x="150" y="395" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:12px;font-weight:bold;fill:#28a745">Growth</text>
+  <text x="150" y="410" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:12px;font-weight:bold;fill:#28a745">Cycle</text>
+  <text x="150" y="425" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:12px;font-weight:bold;fill:#28a745">(反思循环)</text>
+  
+  <!-- Key Principles -->
+  <rect x="50" y="480" width="570" height="180" rx="8" fill="#f1f3f4" stroke="#9aa0a6" stroke-width="1"/>
+  <text x="335" y="505" text-anchor="middle" style="font-family:Arial,sans-serif;font-size:16px;font-weight:bold;fill:#2c3e50">Key Implementation Principles</text>
+  
+  <text x="70" y="530" style="font-family:Arial,sans-serif;font-size:12px;font-weight:bold;fill:#1976d2">1. Gradual Transition:</text>
+  <text x="90" y="545" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Begin with pilot programs and willing early adopters</text>
+  <text x="90" y="560" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Provide scaffolding during the "comfort zone" breaking phase</text>
+  
+  <text x="350" y="530" style="font-family:Arial,sans-serif;font-size:12px;font-weight:bold;fill:#7b1fa2">2. Sustainable Support:</text>
+  <text x="370" y="545" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Ensure administrative commitment and resource allocation</text>
+  <text x="370" y="560" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Create protected time for experimentation and reflection</text>
+  
+  <text x="70" y="585" style="font-family:Arial,sans-serif;font-size:12px;font-weight:bold;fill:#388e3c">3. Evidence-Based Practice:</text>
+  <text x="90" y="600" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Document student outcomes and teacher experiences</text>
+  <text x="90" y="615" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Adapt models based on local context and feedback</text>
+  
+  <text x="350" y="585" style="font-family:Arial,sans-serif;font-size:12px;font-weight:bold;fill:#f57c00">4. Cultural Integration:</text>
+  <text x="370" y="600" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Align with school values and existing positive practices</text>
+  <text x="370" y="615" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Build on teachers' existing strengths and interests</text>
+  
+  <text x="70" y="640" style="font-family:Arial,sans-serif;font-size:12px;font-weight:bold;fill:#c2185b">5. Network Effects:</text>
+  <text x="90" y="655" style="font-family:Arial,sans-serif;font-size:11px;fill:#495057">• Foster peer-to-peer learning and mutual support systems</text>
+</svg>

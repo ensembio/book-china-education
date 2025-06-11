@@ -1,4 +1,4 @@
-# Introduction
+# Introduction {.unnumbered}
 
 This book explores the transformative potential of inquiry-based learning approaches within educational systems, with a particular focus on implementation strategies and systemic change. Throughout the following chapters, we examine the philosophical foundations, practical methodologies, and leadership requirements for successfully transitioning from traditional teaching paradigms to more dynamic, student-centered learning environments.
 

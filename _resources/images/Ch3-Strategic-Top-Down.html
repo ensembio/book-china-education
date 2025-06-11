@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategic Top-Level Design Framework</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        
+        .title {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        
+        .framework {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .phase {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 25px;
+            border-left: 5px solid;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .phase:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        
+        .phase-1 { border-left-color: #e74c3c; }
+        .phase-2 { border-left-color: #3498db; }
+        .phase-3 { border-left-color: #27ae60; }
+        
+        .phase h3 {
+            margin-top: 0;
+            color: #2c3e50;
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+        
+        .phase-content {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .phase-content li {
+            background: white;
+            margin: 8px 0;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.4;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .core-principles {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+        
+        .core-principles h3 {
+            margin-top: 0;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .principles-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .principle {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .arrows {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #7f8c8d;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .feedback-loop {
+            background: #ecf0f1;
+            border-radius: 12px;
+            padding: 25px;
+            margin-top: 30px;
+            border: 2px dashed #bdc3c7;
+        }
+        
+        .feedback-loop h4 {
+            text-align: center;
+            color: #34495e;
+            margin-bottom: 20px;
+        }
+        
+        .loop-items {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .loop-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            min-width: 120px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+        
+        .warning-box h4 {
+            color: #856404;
+            margin-top: 0;
+        }
+        
+        .warning-list {
+            color: #856404;
+            margin: 0;
+        }
+        
+        @media (max-width: 768px) {
+            .framework {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Strategic Top-Level Design Framework for Educational Reform</h1>
+        
+        <div class="core-principles">
+            <h3>Core Design Principles (設計原則)</h3>
+            <div class="principles-grid">
+                <div class="principle">
+                    <strong>Begin with End (以終為始)</strong><br>
+                    Define ultimate reform goals first
+                </div>
+                <div class="principle">
+                    <strong>Consensus Building (共識)</strong><br>
+                    Unified vision reduces resistance
+                </div>
+                <div class="principle">
+                    <strong>Action-First (行動改變)</strong><br>
+                    Behavioral change precedes mindset shift
+                </div>
+                <div class="principle">
+                    <strong>Systematic Thinking (系統思維)</strong><br>
+                    Avoid piecemeal approaches
+                </div>
+            </div>
+        </div>
+        
+        <div class="framework">
+            <div class="phase phase-1">
+                <h3>Phase 1: Vision & Analysis</h3>
+                <ul class="phase-content">
+                    <li><strong>Define End Goals:</strong> Specific, measurable reform outcomes</li>
+                    <li><strong>Current State Assessment:</strong> Existing capabilities, constraints, culture</li>
+                    <li><strong>Stakeholder Mapping:</strong> Identify influencers, resistors, champions</li>
+                    <li><strong>Resource Inventory:</strong> Budget, personnel, infrastructure, time</li>
+                    <li><strong>Risk Analysis:</strong> Potential failure modes and mitigation strategies</li>
+                </ul>
+            </div>
+            
+            <div class="arrows">→</div>
+            
+            <div class="phase phase-2">
+                <h3>Phase 2: Strategic Architecture</h3>
+                <ul class="phase-content">
+                    <li><strong>Backward Planning:</strong> Work from end goals to current state</li>
+                    <li><strong>Pilot Design:</strong> Select test schools with optimal conditions</li>
+                    <li><strong>Model Development:</strong> Create operational frameworks (疑探教學)</li>
+                    <li><strong>Success Metrics:</strong> Define measurable progress indicators</li>
+                    <li><strong>Communication Strategy:</strong> Build consensus through clear messaging</li>
+                    <li><strong>Training Architecture:</strong> External learning + internal capacity building</li>
+                    <li><strong>Timeline Sequencing:</strong> Phased rollout with feedback loops</li>
+                </ul>
+            </div>
+            
+            <div class="arrows">→</div>
+            
+            <div class="phase phase-3">
+                <h3>Phase 3: Implementation Design</h3>
+                <ul class="phase-content">
+                    <li><strong>Change Management:</strong> Address comfort zone resistance</li>
+                    <li><strong>Support Systems:</strong> Coaching, mentoring, peer networks</li>
+                    <li><strong>Evaluation Framework:</strong> Continuous assessment and adjustment</li>
+                    <li><strong>Scale-up Strategy:</strong> From pilot to system-wide adoption</li>
+                    <li><strong>Sustainability Planning:</strong> Embed changes in institutional culture</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="feedback-loop">
+            <h4>Continuous Improvement Loop (持續改進)</h4>
+            <div class="loop-items">
+                <div class="loop-item">
+                    <strong>Monitor</strong><br>
+                    Track key metrics
+                </div>
+                <div class="loop-item">
+                    <strong>Analyze</strong><br>
+                    Identify gaps
+                </div>
+                <div class="loop-item">
+                    <strong>Adjust</strong><br>
+                    Refine strategies
+                </div>
+                <div class="loop-item">
+                    <strong>Scale</strong><br>
+                    Expand successes
+                </div>
+            </div>
+        </div>
+        
+        <div class="warning-box">
+            <h4>⚠️ Critical Pitfalls to Avoid</h4>
+            <ul class="warning-list">
+                <li><strong>Formalism (形式主義):</strong> Focusing on appearance over substance</li>
+                <li><strong>Borrowing Without Adaptation (拿來主義):</strong> Copying models without contextual modification</li>
+                <li><strong>Blind Rapid Advancement (盲目跃進):</strong> Moving too fast without proper foundation</li>
+                <li><strong>Innovation for Innovation's Sake:</strong> Change without clear purpose or evidence</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
